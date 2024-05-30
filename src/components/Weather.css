@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+
+.container {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    box-shadow: 1px 1px 9px white;
+    border-radius: 10px;
+}
+
+.app {
+    display: flex;
+    border: 1px solid rgb(0, 119, 255);
+    box-shadow: 1px 1px 9px rgb(0, 119, 255);
+    overflow: hidden;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-icon {
+    flex: 1;
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: transparent
+}
+
+ion-icon {
+    background-color: white;
+    height: 30px;
+    color: rgb(13, 0, 255);
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.clear {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.weather-data {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp,
+.city,
+.country {
+    font-size: 20px;
+}
+
+.city {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.cord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.cord div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.wind {
+    width: 50px;
+    height: 50px;
+}
+
+.winds {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.copy-rights {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
